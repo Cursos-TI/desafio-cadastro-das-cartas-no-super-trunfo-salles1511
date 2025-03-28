@@ -21,14 +21,14 @@ int main(){
  //Inserindo os dados da PRIMEIRA carta:       
 
         printf("\nCarta 1: \n");
-        printf("Digite a inicial do Estado: (Uma letra de 'A' a 'H') \n");
+        printf("Digite a inicial do Estado: (Uma letra de 'A' a 'H'): \n");
         scanf(" %c", &estado1); //o " " antes da variável garante que ele respeite a quebra de linha
 
         printf("Cadastre o código da Carta: (Ex: A01)\n");
         scanf("%s", codigo_carta1);
 
         printf("Qual é o nome da cidade?:\n");
-        scanf("%s", nome_cidade1);
+        scanf(" %[^\s]s", nome_cidade1);
 
         printf("Qual a população?: \n");
         scanf("%d", &populacao1);
@@ -49,11 +49,11 @@ int main(){
  printf("Digite a inicial do Estado: (Uma letra de 'A' a 'H') \n");
  scanf(" %c", &estado2); //o " " antes da variável garante que ele respeite a quebra de linha
 
- printf("Cadastre o código da Carta: (Ex: A01)\n");
+ printf("Cadastre o código da Carta: (Ex: A01):\n");
  scanf("%s", codigo_carta2);
 
  printf("Qual é o nome da cidade?:\n");
- scanf("%s", nome_cidade2);
+ scanf(" %[^\s]s", nome_cidade2);
 
  printf("Qual a população?: \n");
  scanf("%d", &populacao2);
