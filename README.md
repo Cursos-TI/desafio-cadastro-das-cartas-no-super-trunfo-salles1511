@@ -15,27 +15,7 @@ Este projeto em linguagem C simula uma rodada do jogo **Super Trunfo** com país
 - Tratamento de entradas inválidas.
 
 ---
-
-## 🛠️ Tecnologias
-
-- Linguagem: **C**
-- Editor sugerido: **Visual Studio Code**
-- Compilador: `gcc`
-
----
-
-## 📥 Compilação
-
-Para compilar o código, use:
-
-```bash
-gcc super_trunfo.c -o super_trunfo
-
-## Execução
-
-Depois de compilar, execute o programa com:
-./super_trunfo
-
+Modelos:
 
 Informe os dados da Carta 1:
 Nome do pais: Brasil
